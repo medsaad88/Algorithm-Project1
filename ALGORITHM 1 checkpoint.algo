@@ -1,0 +1,23 @@
+ALGORITHM checkpoint_algorithm_med
+VAR 
+c : CHAR;
+vn : INTEGER := 0 ; 
+str : INTEGER := 0 ;
+wn : INTEGER := 0 ;
+i = a,e,i,o,u;
+
+BEGIN
+REPEAT
+    read('c');
+    str = str + 1 ;
+    if (c = ('M' || 'E' || 'D' || 'S' || 'a' || 'a' || 'd' || 'O' || 't' || 'h')) then
+    C[i] in["a","e","i","o","u"];
+    vn = vn + 1 ;
+    if (c = ' ') then
+    wn = wn + 1 ;
+    write str ;  //caracters numbers
+    write vn ; //vowels numbers 
+    write wn ; //words number
+UNTIL (c = '.');
+
+END
